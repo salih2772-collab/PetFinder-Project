@@ -11,7 +11,8 @@ This project aims to predict the adoption speed of pets based on their profiles 
 * **Advanced Modeling:** Utilizes a **Stacking Ensemble** (XGBoost + Random Forest + SVM) achieving a QWK score of **0.34**.
 * **Explainable AI (XAI):** Interprets model decisions using **SHAP** (Global Feature Importance).
 * **Web Application:** A containerized Streamlit app for real-time predictions.
-⚠️ **Note:** The trained model file (`stacking_model.pkl`) exceeds GitHub's file size limit.
+  
+⚠️**Note:** The trained model file (`stacking_model.pkl`) exceeds GitHub's file size limit.
  **[Click Here to Download the Model](https://drive.google.com/file/d/144IyC9POjwb9sSPfelL6mh276BxMUh9b/view?usp=drive_link)**
 Please download it and place it in the root directory (next to `app.py`) to run the application.
 ## 📂 Project Structure
@@ -23,6 +24,7 @@ PetFinder-Project/
 ├── requirements.txt       # Dependencies
 ├── *.pkl                  # Trained models (Stacking, Scaler, PCA, etc.)
 └── README.md              # Project documentation
+
 
 
 
