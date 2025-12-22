@@ -3,7 +3,7 @@
 ## 📋 Project Overview
 This project aims to predict the adoption speed of pets based on their profiles from PetFinder.my. By analyzing tabular data, text descriptions, and images, the model helps shelters identify pets that might wait longer for adoption, allowing them to improve profiles and strategies.
 
-**Author:** Alireza Afzal Aghaei  
+**Author:** Seyedali Hosseini 
 **Date:** December 2025
 
 ## ✨ Key Features
@@ -25,4 +25,5 @@ Project-ML/
 ├── Input/
 │   ├── train/                 # Training dataset
 │   └── test/                  # Test dataset
+
 └── README.md                  # Project documentation
