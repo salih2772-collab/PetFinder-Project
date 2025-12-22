@@ -14,16 +14,11 @@ This project aims to predict the adoption speed of pets based on their profiles 
 
 ## 📂 Project Structure
 ```text
-Project-ML/
-├── Code/
-│   └── Petfinder2.ipynb       # Main Jupyter Notebook (Training, EDA, & XAI)
-├── Docker_app/                # Deployment files
-│   ├── app.py                 # Streamlit Web Application
-│   ├── Dockerfile             # Docker configuration
-│   ├── requirements.txt       # Dependencies
-│   └── *.pkl                  # Trained models (Stacking, Scaler, PCA, etc.)
-├── Input/
-│   ├── train/                 # Training dataset
-│   └── test/                  # Test dataset
+PetFinder-Project/
+├── Petfinder2.ipynb       # Main Jupyter Notebook (Training, EDA, & XAI)
+├── app.py                 # Streamlit Web Application
+├── Dockerfile             # Docker configuration
+├── requirements.txt       # Dependencies
+├── *.pkl                  # Trained models (Stacking, Scaler, PCA, etc.)
+└── README.md              # Project documentation
 
-└── README.md                  # Project documentation
